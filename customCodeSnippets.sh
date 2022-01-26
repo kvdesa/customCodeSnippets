@@ -16,4 +16,4 @@ esac
 
 echo "Error!"
 echo "Please choose an action to execute, either importFromXcode or exportToXcode."
-echo "Run the chosen action with the following sintax: 'sh script.sh [ACTION]'"
+echo "Run the chosen action with the following sintax: 'sh customCodeSnippets.sh [ACTION]'"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>testing.sharingscheduler</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>SharingScheduler.mock(scheduler: scheduler) {
+            let &lt;#result#&gt; = scheduler.record(source: &lt;#T##ObservableConvertibleType#&gt;)
+
+            scheduler.scheduleAt(5) {
+                &lt;#code#&gt;
+            }
+
+            scheduler.start()
+            
+            XCTAssertEqual(&lt;#result#&gt;.events, [
+                
+            ])
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>99F0D4BE-721C-4A73-B595-AEBCF16F8E71</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Testing SharingScheduler</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
