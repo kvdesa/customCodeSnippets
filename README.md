@@ -3,7 +3,7 @@
 This is a repository with my custom CodeSnippets and a script to import from/export to Xcode.
 
 ## Script usage
-There are 2 available actions: either import from or export to Xcode.
+There are 2 available actions: **either import** from or **export to** Xcode.
 
 ### Import from Xcode
 
