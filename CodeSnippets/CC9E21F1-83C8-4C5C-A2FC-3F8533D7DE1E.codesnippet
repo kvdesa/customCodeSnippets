@@ -3,17 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rx.onnext</string>
+	<string>testing.awaitpublisher</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>onNext: { [weak self] &lt;#Element#&gt; in
-                &lt;#code#&gt;
-            }</string>
+	<string>// -
+        // Setup testing publishers
+        // -
+        let publisher = &lt;#publisher#&gt;
+        let result = try awaitPublisher(publisher) {
+            // Execute the action to test
+            &lt;#action#&gt;
+        }
+        // -
+
+        XCTAssertTrue(result)</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F9129736-E971-4C71-9431-47F10E3AF76E</string>
+	<string>CC9E21F1-83C8-4C5C-A2FC-3F8533D7DE1E</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -21,7 +29,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Rx OnNext</string>
+	<string>Testing Await Publisher</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

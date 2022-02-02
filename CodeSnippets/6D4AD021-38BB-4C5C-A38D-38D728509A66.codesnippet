@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>testing.makeresultpublisher</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// -
+        // Setup testing publishers
+        // -
+        let publisher = &lt;#publisher#&gt;
+        let expectation = expectation(description: &lt;#message#&gt;)
+        makeResultPublisherFrom(publisher,
+                                expectation: expectation,
+                                cancelBag: cancelBag)
+            .sink { result in
+                XCTAssertEqual(result,
+                               &lt;#expected#&gt;,
+                               &lt;#message#&gt;)
+            }
+            .store(in: cancelBag)
+        // -
+
+        // Execute the action to test
+        &lt;#action#&gt;
+
+        waitForExpectations(timeout: 0.3)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6D4AD021-38BB-4C5C-A38D-38D728509A66</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Testing Make Result Publisher</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

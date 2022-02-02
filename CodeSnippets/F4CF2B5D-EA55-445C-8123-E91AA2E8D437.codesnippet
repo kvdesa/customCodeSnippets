@@ -3,17 +3,41 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rx.onnext</string>
+	<string>declaration.base.swiftui.view</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>onNext: { [weak self] &lt;#Element#&gt; in
-                &lt;#code#&gt;
-            }</string>
+	<string>import SwiftUI
+
+struct &lt;#Name#&gt;: View {
+
+    // MARK: - Constants
+
+    private enum Constants {
+        
+    }
+
+    // MARK: - Properties
+
+    // MARK: - Body
+
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+// MARK: - Preview
+
+struct &lt;#Name#&gt;_Previews: PreviewProvider {
+
+    static var previews: some View {
+        &lt;#Name#&gt;()
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F9129736-E971-4C71-9431-47F10E3AF76E</string>
+	<string>F4CF2B5D-EA55-445C-8123-E91AA2E8D437</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -21,10 +45,10 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Rx OnNext</string>
+	<string>Declaration Base SwiftUI View</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
