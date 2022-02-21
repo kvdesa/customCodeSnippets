@@ -3,23 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>declaration.base.viewmodel</string>
+	<string>base.viewmodel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>final class &lt;#Name#&gt; {
+	
+	// MARK: - Properties
+	
+	// MARK: - Services
+	
+	// MARK: - Init
+	
+	init() {
+		
+	}
+}
 
-    // MARK: - Properties
+// MARK: - Private
 
-    // MARK: - Services
-
-    // MARK: - Init
-
-    init() {
-
-    }
+private extension &lt;#Name#&gt; {
+	
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F34FCB16-CF71-414E-A2DE-2BB30DF42E4E</string>
@@ -30,7 +36,7 @@
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Declaration Base ViewModel</string>
+	<string>Base ViewModel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -3,47 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>base.tests</string>
+	<string>rx.onsuccess</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>import Combine
-@testable import Mimo
-import RxCocoa
-import RxSwift
-import RxTest
-import XCTest
-
-class &lt;#Name#&gt;: XCTestCase {
-
-    private var scheduler: TestScheduler!
-    private var cancelBag: CancelBag!
-
-    override func setUp() {
-        super.setUp()
-        scheduler = TestScheduler(initialClock: 0)
-        cancelBag = CancelBag()
-    }
-
-    override func tearDown() {
-        scheduler = nil
-        cancelBag = nil
-        super.tearDown()
-    }
-}
-
-// MARK: - Helper
-
-private extension &lt;#Name#&gt; {
-
-    func makeViewModel() -&gt; &lt;#ViewModel#&gt; {
-        
-    }
-}</string>
+	<string>onSuccess: { [weak self] &lt;#Element#&gt; in
+                &lt;#code#&gt;
+            }</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>4CDCD964-579C-439D-BA1A-4784180D6C2C</string>
+	<string>E2574BC0-B8AD-41C6-B221-56D001B1B83C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetPlatformFamily</key>
@@ -51,7 +21,7 @@ private extension &lt;#Name#&gt; {
 	<key>IDECodeSnippetSummary</key>
 	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Base Tests</string>
+	<string>Rx OnSuccess</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
