@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>rx.ondisposed</string>
+	<string>rx.ondispose</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>onDisposed: { &lt;#[weak self]#&gt; in
+	<string>onDispose: { &lt;#[weak self]#&gt; in
                 &lt;#code#&gt;
             }</string>
 	<key>IDECodeSnippetIdentifier</key>
