@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>base.sui.view</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import SwiftUI
+
+struct &lt;#View#&gt;: View {
+    
+    // MARK: - Constants
+    
+    private enum Constants {
+        
+    }
+    
+    // MARK: - Properties
+    
+    @ObservedObject var viewModel: &lt;#ViewModel#&gt;
+    
+    // MARK: - Body
+
+    var body: some View {
+        
+    }
+}
+
+struct &lt;#View_Previews#&gt;: PreviewProvider {
+    static var previews: some View {
+        &lt;#View#&gt;()
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>8F2FCF65-49CD-42A9-961D-0E14C8C1E9ED</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Base View SwiftUI</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

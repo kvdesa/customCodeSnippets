@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>testing.makefailresultpublisher</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// -
+        // Setup testing publishers
+        // -
+        let publisher = &lt;#publisher#&gt;
+        let expectation = expectation(description: &lt;#message#&gt;)
+        expectation.isInverted = true
+        makeResultPublisherFrom(publisher,
+                                expectation: expectation,
+                                cancelBag: cancelBag)
+            .sink { result in
+                XCTFail("Should not return anything, got \(result) instead")
+            }
+            .store(in: cancelBag)
+        // -
+        
+        // Execute the action to test
+        &lt;#action#&gt;
+        
+        waitForExpectations(timeout: 0.3)</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>42A4A269-B69A-4E94-9F59-918797D061D8</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Testing Make Fail Result Publisher</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
