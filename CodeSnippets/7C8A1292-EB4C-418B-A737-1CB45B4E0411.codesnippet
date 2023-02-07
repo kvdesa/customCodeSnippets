@@ -15,8 +15,8 @@
 
     private enum Constants {
         enum ContainerView {
-            static let normalBackgroundColor = Colors.&lt;#MimoColor#&gt;.color
-            static let highlightedBackgroundColor = Colors.&lt;#MimoColor#&gt;.color
+            static let normalBackgroundColor = UIColor.&lt;#Foundation#&gt;
+            static let highlightedBackgroundColor = UIColor.&lt;#Foundation#&gt;
         }
     }
 

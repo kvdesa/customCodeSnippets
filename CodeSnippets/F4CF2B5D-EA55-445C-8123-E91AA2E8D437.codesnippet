@@ -21,7 +21,7 @@ struct &lt;#Name#&gt;: View {
 
     // MARK: - Properties
 
-    // MARK: - Body
+    // MARK: - Views
 
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)

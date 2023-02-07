@@ -19,7 +19,7 @@
             scheduler.start()
             
             XCTAssertEqual(&lt;#result#&gt;.events, [
-                
+				.next(&lt;#T##TestTime#&gt;, &lt;#T##T#&gt;),
             ])
         }</string>
 	<key>IDECodeSnippetIdentifier</key>

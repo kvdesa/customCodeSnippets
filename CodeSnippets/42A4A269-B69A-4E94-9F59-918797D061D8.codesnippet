@@ -15,9 +15,11 @@
         let publisher = &lt;#publisher#&gt;
         let expectation = expectation(description: &lt;#message#&gt;)
         expectation.isInverted = true
-        makeResultPublisherFrom(publisher,
-                                expectation: expectation,
-                                cancelBag: cancelBag)
+        makeResultPublisherFrom(
+			publisher,
+			expectation: expectation,
+			cancelBag: cancelBag
+		)
             .sink { result in
                 XCTFail("Should not return anything, got \(result) instead")
             }

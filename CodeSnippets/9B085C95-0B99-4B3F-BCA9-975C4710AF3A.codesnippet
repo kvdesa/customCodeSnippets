@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>enum &lt;#Name#&gt; {
-    static let textColor = Colors.&lt;#MimoColor#&gt;.color
+    static let textColor = UIColor.&lt;#Foundation#&gt;
     static let font = UIFont.mimoFont(&lt;#MimoFont#&gt;)
 }</string>
 	<key>IDECodeSnippetIdentifier</key>

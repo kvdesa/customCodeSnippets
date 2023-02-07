@@ -10,22 +10,26 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>final class &lt;#Name#&gt; {
-	
+
+	// MARK: - Constants
+
+	// MARK: - Publishers
+
 	// MARK: - Properties
-	
+
 	// MARK: - Services
-	
+
 	// MARK: - Init
-	
+
 	init() {
-		
+
 	}
 }
 
 // MARK: - Private
 
 private extension &lt;#Name#&gt; {
-	
+
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F34FCB16-CF71-414E-A2DE-2BB30DF42E4E</string>

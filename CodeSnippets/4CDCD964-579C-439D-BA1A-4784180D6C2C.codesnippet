@@ -16,7 +16,7 @@ import RxSwift
 import RxTest
 import XCTest
 
-class &lt;#Name#&gt;: XCTestCase {
+final class &lt;#Name#&gt;: XCTestCase {
 
     private var scheduler: TestScheduler!
     private var cancelBag: CancelBag!

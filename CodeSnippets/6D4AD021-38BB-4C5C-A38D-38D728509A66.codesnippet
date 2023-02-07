@@ -14,13 +14,17 @@
         // -
         let publisher = &lt;#publisher#&gt;
         let expectation = expectation(description: &lt;#message#&gt;)
-        makeResultPublisherFrom(publisher,
-                                expectation: expectation,
-                                cancelBag: cancelBag)
+        makeResultPublisherFrom(
+			publisher,
+			expectation: expectation,
+			cancelBag: cancelBag
+		)
             .sink { result in
-                XCTAssertEqual(result,
-                               &lt;#expected#&gt;,
-                               &lt;#message#&gt;)
+                XCTAssertEqual(
+					result,
+					&lt;#expected#&gt;,
+					&lt;#message#&gt;
+				)
             }
             .store(in: cancelBag)
         // -

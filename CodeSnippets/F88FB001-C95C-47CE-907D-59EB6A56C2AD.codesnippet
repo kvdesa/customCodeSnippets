@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>rx.tap.asSignal().throttle(.milliseconds(300)</string>
+	<string>rx.tap.asSignal().throttle(.milliseconds(300))</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F88FB001-C95C-47CE-907D-59EB6A56C2AD</string>
 	<key>IDECodeSnippetLanguage</key>
